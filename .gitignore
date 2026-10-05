@@ -1,0 +1,7 @@
+node_modules/
+.env
+*.log
+*.bak
+
+# 개발용 (smoke 테스트, 단위 테스트, 생성기 CLI)
+dev/

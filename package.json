@@ -1,0 +1,11 @@
+{
+  "name": "kupi",
+  "version": "0.1.0",
+  "description": "건국대 AI Gateway를 pi coding agent에 연결하는 models.json 생성기와 크레딧 HUD 확장",
+  "type": "module",
+  "keywords": ["pi-package", "konkuk"],
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./extensions"]
+  }
+}
