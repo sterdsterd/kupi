@@ -68,7 +68,7 @@ export function buildModelsJson(models: ApiModel[]) {
       name: g.name,
       baseUrl: g.baseUrl,
       api: g.api,
-      apiKey: API_KEY_ENV,
+      apiKey: `$${API_KEY_ENV}`,
       ...(g.authHeader ? { authHeader: true } : {}),
       ...(g.compat ? { compat: g.compat } : {}),
       models: [],
